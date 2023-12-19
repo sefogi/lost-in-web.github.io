@@ -1,37 +1,144 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
 body {
-    background-color: red;
     font-family: 'Poppins';
+}
 
-  }
-
-  header > div{
+header > div {
     padding: 0 25px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid lightgray;
-  }
+}
 
-  nav {
-    width:600px;
- }
+nav {
+    width: 600px;
+}
 
- nav ul {
+nav ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
- }
+}
 
- nav a {
+nav a {
     text-decoration: none;
     color: black;
- }
+    padding-right: 1rem;
+}
 
- #blackHeart{
+
+input {
+    width: 600px;
+    padding: 10px;
+    color: rgba(0,0,0,.05)
+}
+
+.search-button {
+    background-color: #fb3e44;
+    color: white;
+    padding: 10px 32px;
+}
+
+.blackheart {
     width: 20px;
     margin-right: 1rem;
+}
+
+.logo {
+    width: 50px;
+}
+
+.search-icon {
+    width: 15px;
+    margin-right: 1rem;
+}
 
 
- }
+#section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+    background-color: rgba(232,217,217,.3);
+}
+
+h1 {
+    padding-top: 5%;
+    font-size: 75px;
+}
+
+article {
+    padding: 30px;
+    width: 50%;
+}
+
+.buttons_s1 {
+    background-color: #fb3b49;
+    box-shadow: 8px 8px 0 rgba(152, 147, 148, 0.2);
+    padding: 15px 32px;
+    font-size: large;
+    color: white;
+    justify-content: space-between;
+}
+.buttons_s2 {
+    background-color: #eae3e4;
+    box-shadow: 8px 8px 0 rgba(152, 147, 148, 0.2);
+    padding: 15px 32px;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+}
+.join {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding: 25px;
+}
+
+#section-2 {
+    text-align: center;
+    margin: 10%;
+}
+h2 {
+    font-style: italic;
+    background-color: rgba(255,204,53,.4)
+}
+
+.hexagon {
+    width: 250px;
+    height: auto;
+}
+
+#section-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+h3 {
+    color: #ED1C24
+}
+.highlight {
+    text-align: left;
+padding-right: 50px;
+}
+.create-button {
+    display:start;
+    background-color: #000000;
+    color: #FFFFFF;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    width: 200px;
+    padding: 15px 32px;
+    margin-inline-start: 38%
+}
+
+.icon {
+    width: 35px;
+    height: auto;
+}

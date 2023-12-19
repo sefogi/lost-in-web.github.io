@@ -1,72 +1,77 @@
-<!--index.html-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Lost in Web</title>
 </head>
 <body>
-    <header>
-        <div class="nav-container">
-            <div class="img-blackHeart-nav">
-                <img id="blackHeart"
-                    src="assets\spaces_BedheEKvvT4UZlMvZ9G7_uploads_F1Oghif3gLsEtfzRgPb6_black-heart.webp" alt="Heart">
+    <header class="header">
+        <div class="top-header">
+            <div class="heart-npm">
+                <img src="assets/black-heart.png" alt="Black heart icon" class="blackheart">
                 <span>Nifty Penguin Magic</span>
             </div>
-
-            <nav>
-                <ul class="navbar">
-                    <a href="#">
-                        <li>npm Enterprise</li>
-                    </a>
-                    <a href="#">
-                        <li>Products</li>
-                    </a>
-                    <a href="#">
-                        <li>Solutions</li>
-                    </a>
-                    <a href="#">
-                        <li>Resources</li>
-                    </a>
-                    <a href="#">
-                        <li>Docs</li>
-                    </a>
-                    <a href="#">
-                        <li>Support</li>
-                    </a>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="">npm Enterprise</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Solutions</a></li>
+                    <li><a href="">Resources</a></li>
+                    <li><a href="">Docs</a></li>
+                    <li><a href="">Support</a></li>
                 </ul>
             </nav>
-
         </div>
-        <div class="container-search">
-            <img id="logo" src="assets/npm-logo.png"
-                alt="logo-npm">
-                <form class="search" action="#" method="get">
-                <input type="search" id="icono-placeholder" placeholder="Search packages">
-                <button class="button-search">Search</button> 
+        <div class="search-bar">
+            <img src="assets/npm-logo.png" alt="NPM Logo" class="logo">
+            <form>
+                <img src="assets/magnifying-glass.webp" alt="Search Icon" class="search-icon">
+                <input type="text" placeholder="Search packages" class="input" size="500">
+                <button type="button" class="search-button">Search</button>
             </form>
-
-    
-<--NPM Clone Nifty Penguin Magic 
-npm Enterprise Products Solutions Resources Docs Support
-Search Join Log In
-Build amazing things 
-Essential JavaScript development tools that help you go to market faster and build powerful applications using modern open source code. 
-See plans 
-Join for free 
-Bring the best of open source to your company 
-npm is the tool used by over 11,000,000 JavaScript developers around the world. Your developers already use it. Your company depends on it. Create an Org and get more out of the tools your team already knows and loves. 
-Zero configuration 
-Create an org, add your team, and start collaborating. Nothing to configure, set up, or manage. 
-Team management 
-Control who has access to what modules within your team namespace using straightforward team management capabilities. 
-Familiar features 
-npm Orgs has 100% parity with all the public npm registry features your developers already use. npm audit Enjoy the security auditing features built into the npm client, a zero-friction way to make open source software safer. 
-Create an org
-
-
-
+            <a href="#">Join</a>
+            <a href="#">Log In</a>
+        </div>
+    </header>
+<section class="build" class="first-section" id="section-1">
+    <h1>Build amazing things</h1>
+    <article>Essential JavaScript development tools that help you go to market faster and build powerful applications using modern open source code.</article>
+    <div class="btn_s1">
+    <button href="#" type="button" class="buttons_s1">See plans</button>
+    <button href="#" type="button" class="buttons_s2">Join for free</button>
+    </div>
+</section>
+<section class= "bring" id="section-2">
+    <img src="assets/triangle-hexagon.svg" alt="Hexagon" class="hexagon">
+    <h2>Bring the best of open source to your company </h2>
+    <p>npm is the tool used by over 11,000,000 JavaScript developers around the world. Your developers already use it. Your company depends on it. Create an Org and get more out of the tools your team already knows and loves.</p>
+</section>
+<section id="container">
+    <section id="section-3">
+    <div class="highlight">
+        <img src="assets/zero-configuration.svg" class="icon">
+        <h3>Zero configuration</h3>
+        <p>Create an org, add your team, and start collaborating. Nothing to configure, set up, or manage.</p>
+    </div>
+    <div class="highlight">
+        <img src="assets/team-management.svg" class="icon">
+        <h3>Team management</h3>
+        <p>Control who has access to what modules within your team namespace using straightforward team management capabilities.</p>
+    </div>
+    <div class="highlight">
+        <img src="assets/familiar-features.svg" class="icon">
+        <h3>Familiar features</h3>
+        <p>npm Orgs has 100% parity with all the public npm registry features your developers already use. </p>
+    </div>
+    <div class="highlight">
+        <img src="assets/npm-audit.svg" class="icon">
+        <h3>npm audit</h3>
+        <p>Enjoy the security auditing features built into the npm client, a zero-friction way to make open source software safer.</p>
+    </div>
+    </section>
+    <button type="button" class="create-button" ID="create">Create an Org</button>
+</section>
 </body>
-</html>
+</html> 
